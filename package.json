@@ -13,6 +13,12 @@
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@netlify/plugin-nextjs": "^4.0.0"
+    "@netlify/plugin-nextjs": "^4.0.0",
+    "cypress": "^4.9.0",
+    "cypress-cucumber-preprocessor": "^2.5.0",
+    "env-cmd": "^10.1.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
   }
 }

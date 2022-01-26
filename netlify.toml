@@ -4,3 +4,9 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+
+[[context.production.plugins]]
+  package="/plugins/cypress"
+
+[[context.deploy-preview.plugins]]
+  package="/plugins/cypress"
