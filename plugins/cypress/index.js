@@ -7,10 +7,7 @@ module.exports = {
             config: {
                 baseUrl: netlifyConfig.build.environment.DEPLOY_PRIME_URL,
             },
-            spec: '**/*.{feature,features}',
-            env: {
-                access_token: process.env.CYPRESS_ACCESS_TOKEN
-            }
+            spec: './cypress/features/**/**.feature',
         })
 
         if(result.totalFailed){
