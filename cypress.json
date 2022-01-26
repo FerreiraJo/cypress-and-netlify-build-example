@@ -1,5 +1,6 @@
 {
-    "baseUrl": "http://localhost:8000",
-    "ignoreTestFiles": "*.js",
-    "testFiles": "**/*.{feature,features}"
+  "baseUrl": "http://localhost:8000",
+  "ignoreTestFiles": "*.js",
+  "testFiles": "**/*.{feature,features}",
+  "projectId": "ku1jb7"
 }

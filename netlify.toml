@@ -1,13 +1,20 @@
 [build]
   command = "npm run build"
   publish = ".next"
+    [build.environment]
+    # do not show Cypress installation progress messages
+    CI = "1"
+    # cache Cypress binary in local "node_modules" folder
+    # so Netlify caches it
+    CYPRESS_CACHE_FOLDER = "./node_modules/CypressBinary"
+    CYPRESS_RECORD_KEY = "46f02806-8400-4437-a248-6a531e598910"
+    # set TERM variable for terminal output
+    TERM = "xterm"
 
 [[plugins]]
   package = "netlify-plugin-cypress"
   [plugins.inputs]
-    # run E2E tests against the deployed URL
-    record = true
-    group = 'deployed'
+    enable = false
   [plugins.inputs.postBuild]
     # run E2E tests against locally built site
     # before deploying it
