@@ -2,10 +2,6 @@ const cypress = require('cypress');
 
 module.exports = {
     onSuccess: async ({netlifyConfig}) => {
-        if (!netlifyConfig.build.environment.SITE_NAME !== 'app') {
-            console.log('Cypress skipped');      
-            return;    
-        }
 
         const result =  cypress.run({
             config: {
