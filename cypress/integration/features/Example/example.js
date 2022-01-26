@@ -1,6 +1,6 @@
 import { Given } from "cypress-cucumber-preprocessor/steps";
 
-const url = "http://localhost:3000";
+const url = Cypress.config("baseUrl")
 
 Given(`I open the page`, () => {
   cy.visit(url);
