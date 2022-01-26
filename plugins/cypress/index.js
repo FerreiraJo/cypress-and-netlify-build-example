@@ -5,7 +5,7 @@ module.exports = {
 
         const result =  cypress.run({
             config: {
-                baseUrl: netlifyConfig.build.environemtn.DEPLOY_PRIME_URL,
+                baseUrl: netlifyConfig.build.environment.DEPLOY_PRIME_URL,
             },
             spec: '**/*.{feature,features}',
             env: {
