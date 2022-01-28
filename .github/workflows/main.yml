@@ -12,6 +12,11 @@ on:
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
+    env:
+      # prevents extra Cypress installation progress messages
+      CI: 1
+      # avoid warnings like "tput: No value for $TERM and no -T specified"
+      TERM: xterm
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -19,6 +24,9 @@ jobs:
       # and run all Cypress tests
       - name: Cypress run
         uses: cypress-io/github-action@v2
+        env:
+          CYPRESS_INCLUDE_USE_BOOLEAN_AND: true 
+          CYPRESS_INCLUDE_TAGS: smoke
         with:
           build: npm run build:sandbox
           start: npm start
