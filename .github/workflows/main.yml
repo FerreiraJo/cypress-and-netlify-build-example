@@ -25,8 +25,6 @@ jobs:
       # and run all Cypress tests
       - name: Cypress run
         uses: cypress-io/github-action@v2
-        env: 
-          TAGS: "@smoke"
         with:
           build: npm run build:sandbox
           start: npm start

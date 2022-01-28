@@ -1,4 +1,7 @@
 {
+  "env": {
+    "TAGS": "@smoke"
+  },
   "baseUrl": "http://localhost:4000",
   "ignoreTestFiles": "*.js",
   "testFiles": "**/*.{feature,features}",
