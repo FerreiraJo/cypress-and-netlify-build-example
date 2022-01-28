@@ -31,4 +31,4 @@ jobs:
           wait-on: 'http://localhost:4000'
           wait-on-timeout: 120
           browser: chrome
-          command: ./node_modules/.bin/cypress-tags run -e TAGS='@smoke'
+          command: npx cypress-tags run -e TAGS='@smoke'
