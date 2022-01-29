@@ -1,6 +1,6 @@
 {
   "env" : { 
-    "TAGS" : "not @regression" 
+    "TAGS" : "@smoke" 
    }, 
   "baseUrl": "http://localhost:4000",
   "ignoreTestFiles": "*.js",

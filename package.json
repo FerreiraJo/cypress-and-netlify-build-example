@@ -8,7 +8,8 @@
     "export": "next export",
     "build:sandbox": "env-cmd -f .env.sandbox next build",
     "start": "next start -p 4000",
-    "start:test": "start-server-and-test start http://localhost:4000"
+    "start:test": "start-server-and-test start http://localhost:4000",
+    "smoke:test": "cypress-tags run -e TAGS='@smoke'"
   },
   "dependencies": {
     "next": "^12.0.7",
