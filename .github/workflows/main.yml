@@ -26,7 +26,7 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
-          build: npm cache clean --force && npm run build:sandbox
+          build: npm run build:sandbox
           start: npm start
           wait-on: 'http://localhost:4000'
           wait-on-timeout: 120
