@@ -25,9 +25,6 @@ jobs:
       # and run all Cypress tests
       - name: Cypress run
         uses: cypress-io/github-action@v2
-
-      - name: Custom tests 🧪
-        uses: ./
         with:
           build: npm run build:sandbox
           working-directory: cypress/
