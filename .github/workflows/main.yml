@@ -23,13 +23,13 @@ jobs:
         uses: actions/checkout@v2
       # Install NPM dependencies, cache them correctly
       # and run all Cypress tests
-        uses: cypress-io/github-action@v2
+      - uses: cypress-io/github-action@v2
         if: failure()
         with:
           build: npm cache clean --force  && npm run build:sandbox
 
       - name: Cypress run
-        uses: cypress-io/github-action@v2
+      - uses: cypress-io/github-action@v2
         with:
           build: npm run build:sandbox
           start: npm start
