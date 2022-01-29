@@ -12,7 +12,9 @@ on:
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
-    container: cypress/browsers:node16.5.0-chrome97-ff96
+    container: 
+      image: cypress/browsers:node16.5.0-chrome97-ff96
+      options: --user 1001
     env:
       # prevents extra Cypress installation progress messages
       CI: 1
@@ -27,7 +29,6 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           build: npm run build:sandbox
-          working-directory: cypress/
           start: npm start
           wait-on: 'http://localhost:4000'
           wait-on-timeout: 120
