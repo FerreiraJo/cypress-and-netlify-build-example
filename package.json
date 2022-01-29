@@ -19,6 +19,7 @@
     "@netlify/plugin-nextjs": "^4.0.0",
     "cypress": "^4.9.0",
     "cypress-cucumber-preprocessor": "^2.5.0",
+    "cypress-tags": "^0.3.0",
     "env-cmd": "^10.1.0",
     "netlify-plugin-cypress": "^2.2.0",
     "start-server-and-test": "^1.14.0"
