@@ -25,10 +25,14 @@ jobs:
       # and run all Cypress tests
       - name: Cypress run
         uses: cypress-io/github-action@v2
+
+      - name: Custom tests 🧪
+        uses: ./
         with:
           build: npm run build:sandbox
+          working-directory: cypress/
           start: npm start
           wait-on: 'http://localhost:4000'
           wait-on-timeout: 120
           browser: chrome
-          command: sudo npm run smoke:test
+          command: npm run smoke:test
