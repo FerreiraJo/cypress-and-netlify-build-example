@@ -3,6 +3,13 @@
   "reportUrl" : "https://FerreiraJo.github.io/cypress-and-netlify-build-example/51/",
   "reportName" : "Allure Report with history",
   "data" : {
+    "duration" : 19539
+  }
+}, {
+  "buildOrder" : 51,
+  "reportUrl" : "https://FerreiraJo.github.io/cypress-and-netlify-build-example/51/",
+  "reportName" : "Allure Report with history",
+  "data" : {
     "duration" : 19555
   }
 }, {

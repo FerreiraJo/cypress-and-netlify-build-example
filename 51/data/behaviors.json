@@ -4,13 +4,13 @@
     "name" : "Example",
     "children" : [ {
       "name" : "Opening a Page",
-      "uid" : "a553ade4d58f8dd7",
+      "uid" : "a053ba4f1bdfdee4",
       "parentUid" : "edcc8f79425c3ceb04e1a57acd5799c7",
       "status" : "passed",
       "time" : {
-        "start" : 1643567213412,
-        "stop" : 1643567213926,
-        "duration" : 514
+        "start" : 1643567235943,
+        "stop" : 1643567236512,
+        "duration" : 569
       },
       "flaky" : false,
       "newFailed" : false,
@@ -21,13 +21,13 @@
     "name" : "Example2",
     "children" : [ {
       "name" : "Opening a Page",
-      "uid" : "6f14d076383f0c9b",
+      "uid" : "ffb8e2900fcc18a1",
       "parentUid" : "a257c61902f8b2c0ec178dc5f3516879",
       "status" : "passed",
       "time" : {
-        "start" : 1643567220764,
-        "stop" : 1643567221165,
-        "duration" : 401
+        "start" : 1643567243172,
+        "stop" : 1643567243559,
+        "duration" : 387
       },
       "flaky" : false,
       "newFailed" : false,
@@ -38,13 +38,13 @@
     "name" : "Example3",
     "children" : [ {
       "name" : "Opening a Page",
-      "uid" : "e2ae4bec19e6ae0a",
+      "uid" : "b0bb2428fe23706b",
       "parentUid" : "a2179051e14ac2a395e2169249fb4644",
       "status" : "passed",
       "time" : {
-        "start" : 1643567226630,
-        "stop" : 1643567227086,
-        "duration" : 456
+        "start" : 1643567249137,
+        "stop" : 1643567249528,
+        "duration" : 391
       },
       "flaky" : false,
       "newFailed" : false,
@@ -55,13 +55,13 @@
     "name" : "Example4",
     "children" : [ {
       "name" : "Opening a Page",
-      "uid" : "8e899cb3ea378cdb",
+      "uid" : "5b3fc696efba474a",
       "parentUid" : "9407628cc87664d5c11631fb09723695",
       "status" : "passed",
       "time" : {
-        "start" : 1643567232578,
-        "stop" : 1643567232967,
-        "duration" : 389
+        "start" : 1643567255028,
+        "stop" : 1643567255482,
+        "duration" : 454
       },
       "flaky" : false,
       "newFailed" : false,
