@@ -34,6 +34,8 @@ jobs:
           browser: chrome
           command: npm run smoke:test
           parallel: true
+          parallel: true
+          group: 'Actions example'
           
       - name: Get Allure history
         uses: actions/checkout@v2
@@ -61,3 +63,5 @@ jobs:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          
