@@ -1,11 +1,6 @@
 name: Create Cypress report
-on:
-  push:
-    branches:
-      - 'action-publish-github-pages'
-  # Add this part if you want to schedule test rerun
-  # schedule:
-  #   - cron: '0 8 1-31 * *'
+
+on: [push]
 
 jobs:
   
@@ -51,8 +46,8 @@ jobs:
           path: allure-results/
 
   report:
-    needs: test
     runs-on: ubuntu-20.04
+    needs: test
     steps:
       - uses: actions/checkout@master
       - run: ls allure-results/
