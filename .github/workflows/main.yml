@@ -39,7 +39,7 @@ jobs:
           browser: chrome
           # command: npm run smoke:test
           parallel: true
-          # record: true
+          record: false
           group: 'Actions example'
         # env:
         #   CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
