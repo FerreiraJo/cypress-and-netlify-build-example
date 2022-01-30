@@ -1,0 +1,48 @@
+# name: Create Cypress report
+# on:
+#   push:
+#     branches:
+#       - 'action-publish-github-pages'
+#   # Add this part if you want to schedule test rerun
+#   # schedule:
+#   #   - cron: '0 8 1-31 * *'
+
+# jobs:
+  
+#   cypress-e2e-chrome81:
+#     name: Run on Chrome 97
+#     runs-on: ubuntu-latest
+#     container: 
+#       image: cypress/browsers:node16.5.0-chrome97-ff96
+#       options: --user 1001
+#     steps:
+#       - uses: actions/checkout@v2
+      
+#       - name: Install a project with a clean slate
+#         uses: cypress-io/github-action@v2
+#         with:
+#           build: npm run build:sandbox
+#           start: npm start
+#           wait-on: 'http://localhost:4000'
+#           wait-on-timeout: 120
+#           browser: chrome
+#           command: npm run smoke:test
+#         continue-on-error: true
+#       - name: Copy test execution videos
+#         run: |
+#           mkdir report
+#           cp -r cypress/videos report/videos
+      
+#       - name: Merge test results into one
+#         run: npm run report:merge
+      
+#       - name: Generate HTML report
+#         run: npm run report:generate
+      
+#       - name: Deploy report page
+#         uses: peaceiris/actions-gh-pages@v3
+#         with:
+#           github_token: ${{ secrets.GITHUB_TOKEN }}
+#           publish_dir: ./report
+#           user_name: 'github-actions[bot]'
+#           user_email: 'github-actions[bot]@users.noreply.github.com'

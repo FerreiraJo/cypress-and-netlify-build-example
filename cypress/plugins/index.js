@@ -12,7 +12,17 @@
 // the project's config changing)
 
 const cucumber = require('cypress-cucumber-preprocessor').default
+const allureWriter = require('@shelex/cypress-allure-plugin/writer');
+
 module.exports = (on, config) => {
-  on('file:preprocessor', cucumber())
+  on('file:preprocessor', cucumber()) //,
+  on('task', {
+    failed: require('cypress-failed-log/src/failed')(),
+  })
 }
 
+module.exports = (on, config) => {
+  on('file:preprocessor', cucumber());
+  allureWriter(on, config);
+  return config;
+};
