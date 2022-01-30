@@ -23,7 +23,7 @@ jobs:
         containers: [1, 2, 3]
     steps:
       - name: Checkout
-      - uses: actions/checkout@v2
+        uses: actions/checkout@v2
       
       # because of "record" and "parallel" parameters
       # these containers will load balance all found tests among themselves
