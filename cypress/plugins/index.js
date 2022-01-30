@@ -11,9 +11,13 @@
 // This function is called when a project is opened or re-opened (e.g. due to
 // the project's config changing)
 
-const cucumber = require('cypress-cucumber-preprocessor').default
 const allureWriter = require('@shelex/cypress-allure-plugin/writer');
-
+/**
+ * @type {Cypress.PluginConfig}
+ */
+// eslint-disable-next-line no-unused-vars
+const cucumber = require('cypress-cucumber-preprocessor').default
+console.log('in plugins file')
 module.exports = (on, config) => {
   on('file:preprocessor', cucumber()) //,
   on('task', {
