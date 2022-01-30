@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Jan 30 05:05:38 GMT 2022","Sun Jan 30 05:05:39 GMT 2022","479","","Example4","","","","Opening a Page",""
+"passed","Sun Jan 30 05:05:18 GMT 2022","Sun Jan 30 05:05:19 GMT 2022","514","","Example","","","","Opening a Page",""
+"passed","Sun Jan 30 05:05:26 GMT 2022","Sun Jan 30 05:05:26 GMT 2022","374","","Example2","","","","Opening a Page",""
+"passed","Sun Jan 30 05:05:32 GMT 2022","Sun Jan 30 05:05:33 GMT 2022","386","","Example3","","","","Opening a Page",""
