@@ -1,4 +1,4 @@
-Feature: Example2
+Feature: Example4
 
   @regression @smoke
   Scenario: Opening a Page
