@@ -34,7 +34,7 @@ jobs:
           browser: chrome
           command: npm run smoke:test
           parallel: true
-          parallel: true
+          record: true
           group: 'Actions example'
           
       - name: Get Allure history
@@ -64,4 +64,3 @@ jobs:
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
-          
