@@ -39,10 +39,10 @@ jobs:
           browser: chrome
           # command: npm run smoke:test
           parallel: true
-          record: true
+          # record: true
           group: 'Actions example'
-        env:
-          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+        # env:
+        #   CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
 
       - name: upload artifact
         uses: actions/upload-artifact@master
