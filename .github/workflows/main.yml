@@ -10,9 +10,11 @@ on:
 jobs:
   
   cypress-e2e-chrome81:
-    name: Run on Chrome 81
-    runs-on: ubuntu-18.04
-    container: cypress/browsers:node12.16.2-chrome81-ff75
+    name: Run on Chrome 97
+    runs-on: ubuntu-latest
+    container: 
+      image: cypress/browsers:node16.5.0-chrome97-ff96
+      options: --user 1001
     steps:
       - uses: actions/checkout@v2
       
