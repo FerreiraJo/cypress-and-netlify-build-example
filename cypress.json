@@ -8,6 +8,7 @@
       "configFile": "reporter-config.json"
   },
   "env": {
-    "allureResultsPath": "allure-results/"
+    "allureResultsPath": "allure-results/",
+    "allureAddVideoOnPass": true
   }
 }
