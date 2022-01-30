@@ -1,12 +1,12 @@
 {
-  "uid" : "cadc558c9fa05674",
+  "uid" : "6f14d076383f0c9b",
   "name" : "Opening a Page",
   "fullName" : "Opening a Page",
-  "historyId" : "a6e955bcfc9e04daff6a42bd0def6767",
+  "historyId" : "184c52d2d7631530b6d8c7411e251b53",
   "time" : {
-    "start" : 1643567230546,
-    "stop" : 1643567230955,
-    "duration" : 409
+    "start" : 1643567220764,
+    "stop" : 1643567221165,
+    "duration" : 401
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,8 +17,8 @@
     "steps" : [ {
       "name" : "\"before each\" hook",
       "time" : {
-        "start" : 1643567230549,
-        "stop" : 1643567230550,
+        "start" : 1643567220767,
+        "stop" : 1643567220768,
         "duration" : 1
       },
       "status" : "passed",
@@ -32,17 +32,17 @@
     }, {
       "name" : "Given I open the page",
       "time" : {
-        "start" : 1643567230562,
-        "stop" : 1643567230929,
-        "duration" : 367
+        "start" : 1643567220783,
+        "stop" : 1643567221135,
+        "duration" : 352
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "visit /",
         "time" : {
-          "start" : 1643567230563,
-          "stop" : 1643567230917,
-          "duration" : 354
+          "start" : 1643567220784,
+          "stop" : 1643567221117,
+          "duration" : 333
         },
         "status" : "passed",
         "steps" : [ ],
@@ -62,17 +62,17 @@
     }, {
       "name" : "Then I see \"Welcome to my app!\" in the button",
       "time" : {
-        "start" : 1643567230929,
-        "stop" : 1643567230954,
-        "duration" : 25
+        "start" : 1643567221135,
+        "stop" : 1643567221164,
+        "duration" : 29
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "get .title",
         "time" : {
-          "start" : 1643567230930,
-          "stop" : 1643567230944,
-          "duration" : 14
+          "start" : 1643567221136,
+          "stop" : 1643567221152,
+          "duration" : 16
         },
         "status" : "passed",
         "steps" : [ ],
@@ -85,9 +85,9 @@
       }, {
         "name" : "contains Welcome to my app!",
         "time" : {
-          "start" : 1643567230944,
-          "stop" : 1643567230952,
-          "duration" : 8
+          "start" : 1643567221152,
+          "stop" : 1643567221163,
+          "duration" : 11
         },
         "status" : "passed",
         "steps" : [ ],
@@ -106,11 +106,11 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "1eec60fde9f3651b",
+      "uid" : "5d0bd52e572ada29",
       "name" : "video recording",
-      "source" : "1eec60fde9f3651b.mp4",
+      "source" : "5d0bd52e572ada29.mp4",
       "type" : "video/mp4",
-      "size" : 172337
+      "size" : 194847
     } ],
     "parameters" : [ ],
     "stepsCount" : 6,
@@ -121,10 +121,10 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "Example4"
+    "value" : "Example2"
   }, {
     "name" : "feature",
-    "value" : "Example4"
+    "value" : "Example2"
   }, {
     "name" : "tag",
     "value" : "regression"
@@ -153,45 +153,45 @@
         "total" : 5
       },
       "items" : [ {
-        "uid" : "1891a3514c8b5f5a",
-        "reportUrl" : "https://FerreiraJo.github.io/cypress-and-netlify-build-example/49//#testresult/1891a3514c8b5f5a",
+        "uid" : "5fce818c115890e",
+        "reportUrl" : "https://FerreiraJo.github.io/cypress-and-netlify-build-example/49//#testresult/5fce818c115890e",
         "status" : "passed",
         "time" : {
-          "start" : 1643566315835,
-          "stop" : 1643566316185,
-          "duration" : 350
+          "start" : 1643566304561,
+          "stop" : 1643566305025,
+          "duration" : 464
         }
       }, {
-        "uid" : "a3a691691ec2093e",
-        "reportUrl" : "https://FerreiraJo.github.io/cypress-and-netlify-build-example/49//#testresult/a3a691691ec2093e",
+        "uid" : "d212ac665307222e",
+        "reportUrl" : "https://FerreiraJo.github.io/cypress-and-netlify-build-example/49//#testresult/d212ac665307222e",
         "status" : "passed",
         "time" : {
-          "start" : 1643566282990,
-          "stop" : 1643566283310,
-          "duration" : 320
+          "start" : 1643566271452,
+          "stop" : 1643566271823,
+          "duration" : 371
         }
       }, {
-        "uid" : "6f2cc02085c04736",
-        "reportUrl" : "https://FerreiraJo.github.io/cypress-and-netlify-build-example/47//#testresult/6f2cc02085c04736",
+        "uid" : "ec30874c1fdc7a27",
+        "reportUrl" : "https://FerreiraJo.github.io/cypress-and-netlify-build-example/47//#testresult/ec30874c1fdc7a27",
         "status" : "passed",
         "time" : {
-          "start" : 1643519803914,
-          "stop" : 1643519804423,
-          "duration" : 509
-        }
-      }, {
-        "uid" : "f77080e678bed52f",
-        "reportUrl" : "https://FerreiraJo.github.io/cypress-and-netlify-build-example/46//#testresult/f77080e678bed52f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1643519138777,
-          "stop" : 1643519139256,
+          "start" : 1643519790137,
+          "stop" : 1643519790616,
           "duration" : 479
+        }
+      }, {
+        "uid" : "c8523953ea471bb9",
+        "reportUrl" : "https://FerreiraJo.github.io/cypress-and-netlify-build-example/46//#testresult/c8523953ea471bb9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643519126253,
+          "stop" : 1643519126627,
+          "duration" : 374
         }
       } ]
     },
     "tags" : [ "regression", "smoke" ]
   },
-  "source" : "cadc558c9fa05674.json",
+  "source" : "6f14d076383f0c9b.json",
   "parameterValues" : [ ]
 }

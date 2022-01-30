@@ -1,40 +1,40 @@
 [ {
-  "uid" : "255de3dde536e823",
+  "uid" : "e2ae4bec19e6ae0a",
   "name" : "Opening a Page",
   "time" : {
-    "start" : 1643567212637,
-    "stop" : 1643567213098,
-    "duration" : 461
+    "start" : 1643567226630,
+    "stop" : 1643567227086,
+    "duration" : 456
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "cadc558c9fa05674",
+  "uid" : "a553ade4d58f8dd7",
   "name" : "Opening a Page",
   "time" : {
-    "start" : 1643567230546,
-    "stop" : 1643567230955,
-    "duration" : 409
+    "start" : 1643567213412,
+    "stop" : 1643567213926,
+    "duration" : 514
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b87194fa585116ab",
+  "uid" : "8e899cb3ea378cdb",
   "name" : "Opening a Page",
   "time" : {
-    "start" : 1643567219231,
-    "stop" : 1643567219694,
-    "duration" : 463
+    "start" : 1643567232578,
+    "stop" : 1643567232967,
+    "duration" : 389
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "2314a6be78500a53",
+  "uid" : "6f14d076383f0c9b",
   "name" : "Opening a Page",
   "time" : {
-    "start" : 1643567224903,
-    "stop" : 1643567225343,
-    "duration" : 440
+    "start" : 1643567220764,
+    "stop" : 1643567221165,
+    "duration" : 401
   },
   "status" : "passed",
   "severity" : "normal"

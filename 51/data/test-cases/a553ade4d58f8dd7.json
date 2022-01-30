@@ -1,12 +1,12 @@
 {
-  "uid" : "255de3dde536e823",
+  "uid" : "a553ade4d58f8dd7",
   "name" : "Opening a Page",
   "fullName" : "Opening a Page",
   "historyId" : "1348bec26956964e729b4d34147c4dce",
   "time" : {
-    "start" : 1643567212637,
-    "stop" : 1643567213098,
-    "duration" : 461
+    "start" : 1643567213412,
+    "stop" : 1643567213926,
+    "duration" : 514
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,9 +17,9 @@
     "steps" : [ {
       "name" : "\"before each\" hook",
       "time" : {
-        "start" : 1643567212644,
-        "stop" : 1643567212645,
-        "duration" : 1
+        "start" : 1643567213417,
+        "stop" : 1643567213417,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -32,17 +32,17 @@
     }, {
       "name" : "Given I open the page",
       "time" : {
-        "start" : 1643567212662,
-        "stop" : 1643567213062,
-        "duration" : 400
+        "start" : 1643567213454,
+        "stop" : 1643567213881,
+        "duration" : 427
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "visit /",
         "time" : {
-          "start" : 1643567212663,
-          "stop" : 1643567213057,
-          "duration" : 394
+          "start" : 1643567213455,
+          "stop" : 1643567213876,
+          "duration" : 421
         },
         "status" : "passed",
         "steps" : [ ],
@@ -62,17 +62,17 @@
     }, {
       "name" : "Then I see \"Welcome to my app!\" in the button",
       "time" : {
-        "start" : 1643567213062,
-        "stop" : 1643567213098,
-        "duration" : 36
+        "start" : 1643567213880,
+        "stop" : 1643567213925,
+        "duration" : 45
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "get .title",
         "time" : {
-          "start" : 1643567213063,
-          "stop" : 1643567213088,
-          "duration" : 25
+          "start" : 1643567213881,
+          "stop" : 1643567213911,
+          "duration" : 30
         },
         "status" : "passed",
         "steps" : [ ],
@@ -85,9 +85,9 @@
       }, {
         "name" : "contains Welcome to my app!",
         "time" : {
-          "start" : 1643567213088,
-          "stop" : 1643567213096,
-          "duration" : 8
+          "start" : 1643567213911,
+          "stop" : 1643567213921,
+          "duration" : 10
         },
         "status" : "passed",
         "steps" : [ ],
@@ -106,11 +106,11 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "96ba0ae9e327a799",
+      "uid" : "75f88dce7fb65c16",
       "name" : "video recording",
-      "source" : "96ba0ae9e327a799.mp4",
+      "source" : "75f88dce7fb65c16.mp4",
       "type" : "video/mp4",
-      "size" : 243746
+      "size" : 240765
     } ],
     "parameters" : [ ],
     "stepsCount" : 6,
@@ -189,6 +189,6 @@
     },
     "tags" : [ "smoke" ]
   },
-  "source" : "255de3dde536e823.json",
+  "source" : "a553ade4d58f8dd7.json",
   "parameterValues" : [ ]
 }
