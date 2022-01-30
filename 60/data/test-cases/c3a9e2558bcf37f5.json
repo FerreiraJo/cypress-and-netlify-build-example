@@ -1,0 +1,150 @@
+{
+  "uid" : "c3a9e2558bcf37f5",
+  "name" : "Opening a Page",
+  "fullName" : "Opening a Page",
+  "historyId" : "a6e955bcfc9e04daff6a42bd0def6767",
+  "time" : {
+    "start" : 1643581303162,
+    "stop" : 1643581303767,
+    "duration" : 605
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1643581303166,
+        "stop" : 1643581303167,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given I open the page",
+      "time" : {
+        "start" : 1643581303181,
+        "stop" : 1643581303714,
+        "duration" : 533
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit /",
+        "time" : {
+          "start" : 1643581303182,
+          "stop" : 1643581303705,
+          "duration" : 523
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I see \"Welcome to my app!\" in the button",
+      "time" : {
+        "start" : 1643581303714,
+        "stop" : 1643581303766,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get .title",
+        "time" : {
+          "start" : 1643581303715,
+          "stop" : 1643581303752,
+          "duration" : 37
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "contains Welcome to my app!",
+        "time" : {
+          "start" : 1643581303752,
+          "stop" : 1643581303762,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "74abbfe3fff97202",
+      "name" : "video recording",
+      "source" : "74abbfe3fff97202.mp4",
+      "type" : "video/mp4",
+      "size" : 263611
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Example4"
+  }, {
+    "name" : "feature",
+    "value" : "Example4"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "regression", "smoke" ]
+  },
+  "source" : "c3a9e2558bcf37f5.json",
+  "parameterValues" : [ ]
+}

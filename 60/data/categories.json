@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Timed out retrying after 4000ms: Expected to find content: 'Welcome to m app!' within the element: <h1.title> but never did.",
+      "children" : [ {
+        "name" : "Opening a Page",
+        "uid" : "72941242564cfbf2",
+        "parentUid" : "71eb1639c65648e9e182274dc9cb635b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643581288974,
+          "stop" : 1643581293783,
+          "duration" : 4809
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "71eb1639c65648e9e182274dc9cb635b"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
