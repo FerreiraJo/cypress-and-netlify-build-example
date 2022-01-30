@@ -52,6 +52,7 @@ jobs:
           path: allure-results/
 
   report:
+    needs: test
     name: Report
     runs-on: ubuntu-20.04
     steps:
