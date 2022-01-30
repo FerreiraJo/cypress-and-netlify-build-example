@@ -1,5 +1,22 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Example2",
+    "children" : [ {
+      "name" : "Opening a Page",
+      "uid" : "a71d75377d18b13d",
+      "parentUid" : "a257c61902f8b2c0ec178dc5f3516879",
+      "status" : "failed",
+      "time" : {
+        "start" : 1643577706577,
+        "stop" : 1643577711343,
+        "duration" : 4766
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a257c61902f8b2c0ec178dc5f3516879"
+  } ],
   "name" : "behaviors"
 }

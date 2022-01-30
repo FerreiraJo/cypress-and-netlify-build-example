@@ -1,1 +1,23 @@
-{ }
+{
+  "184c52d2d7631530b6d8c7411e251b53" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a71d75377d18b13d",
+      "reportUrl" : "https://FerreiraJo.github.io/cypress-and-netlify-build-example/54//#testresult/a71d75377d18b13d",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: Expected to find content: 'Welcome to m app!' within the element: <h1.title> but never did.",
+      "time" : {
+        "start" : 1643577706577,
+        "stop" : 1643577711343,
+        "duration" : 4766
+      }
+    } ]
+  }
+}

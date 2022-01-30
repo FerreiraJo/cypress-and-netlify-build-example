@@ -1,0 +1,164 @@
+{
+  "uid" : "a71d75377d18b13d",
+  "name" : "Opening a Page",
+  "fullName" : "Opening a Page",
+  "historyId" : "184c52d2d7631530b6d8c7411e251b53",
+  "time" : {
+    "start" : 1643577706577,
+    "stop" : 1643577711343,
+    "duration" : 4766
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 4000ms: Expected to find content: 'Welcome to m app!' within the element: <h1.title> but never did.",
+  "statusTrace" : "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Welcome to m app!' within the element: <h1.title> but never did.\n    at Context.eval (http://localhost:4000/__cypress/tests?p=cypress/integration/features/Example2.feature:43:20)\n    at Context.resolveAndRunStepDefinition (http://localhost:4000/__cypress/tests?p=cypress/integration/features/Example2.feature:13690:29)\n    at Context.eval (http://localhost:4000/__cypress/tests?p=cypress/integration/features/Example2.feature:13035:35)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 4000ms: Expected to find content: 'Welcome to m app!' within the element: <h1.title> but never did.",
+    "statusTrace" : "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Welcome to m app!' within the element: <h1.title> but never did.\n    at Context.eval (http://localhost:4000/__cypress/tests?p=cypress/integration/features/Example2.feature:43:20)\n    at Context.resolveAndRunStepDefinition (http://localhost:4000/__cypress/tests?p=cypress/integration/features/Example2.feature:13690:29)\n    at Context.eval (http://localhost:4000/__cypress/tests?p=cypress/integration/features/Example2.feature:13035:35)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1643577706580,
+        "stop" : 1643577706581,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given I open the page",
+      "time" : {
+        "start" : 1643577706600,
+        "stop" : 1643577707127,
+        "duration" : 527
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit /",
+        "time" : {
+          "start" : 1643577706601,
+          "stop" : 1643577707115,
+          "duration" : 514
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I see \"Welcome to m app!\" in the button",
+      "time" : {
+        "start" : 1643577707127,
+        "stop" : 1643577711341,
+        "duration" : 4214
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "get .title",
+        "time" : {
+          "start" : 1643577707128,
+          "stop" : 1643577707155,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "contains Welcome to m app!",
+        "time" : {
+          "start" : 1643577707155,
+          "stop" : 1643577711341,
+          "duration" : 4186
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "882b81b15889351a",
+      "name" : "features/Example2.feature:2022-01-30T21:21:51.167Z",
+      "source" : "882b81b15889351a.png",
+      "type" : "image/png",
+      "size" : 49091
+    }, {
+      "uid" : "5013d37a9047f0c5",
+      "name" : "video recording",
+      "source" : "5013d37a9047f0c5.mp4",
+      "type" : "video/mp4",
+      "size" : 423678
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Example2"
+  }, {
+    "name" : "feature",
+    "value" : "Example2"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "regression", "smoke" ]
+  },
+  "source" : "a71d75377d18b13d.json",
+  "parameterValues" : [ ]
+}

@@ -1,5 +1,22 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Example2",
+    "children" : [ {
+      "name" : "Opening a Page",
+      "uid" : "a71d75377d18b13d",
+      "parentUid" : "288e2c7a1fc44714ce31963de3eab310",
+      "status" : "failed",
+      "time" : {
+        "start" : 1643577706577,
+        "stop" : 1643577711343,
+        "duration" : 4766
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "288e2c7a1fc44714ce31963de3eab310"
+  } ],
   "name" : "suites"
 }

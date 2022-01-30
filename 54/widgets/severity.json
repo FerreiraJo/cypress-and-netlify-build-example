@@ -1,1 +1,11 @@
-[ ]
+[ {
+  "uid" : "a71d75377d18b13d",
+  "name" : "Opening a Page",
+  "time" : {
+    "start" : 1643577706577,
+    "stop" : 1643577711343,
+    "duration" : 4766
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
