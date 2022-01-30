@@ -24,6 +24,11 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
+          build: npm run build:sandbox
+          start: npm start
+          wait-on: 'http://localhost:4000'
+          wait-on-timeout: 120
+          browser: chrome
           record: true
           parallel: true
           group: 'Actions example'
