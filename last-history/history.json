@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "f9a3d054fa4bc8fd",
+      "reportUrl" : "https://FerreiraJo.github.io/cypress-and-netlify-build-example/49//#testresult/f9a3d054fa4bc8fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643566311167,
+        "stop" : 1643566311761,
+        "duration" : 594
+      }
+    }, {
       "uid" : "a3a691691ec2093e",
       "reportUrl" : "https://FerreiraJo.github.io/cypress-and-netlify-build-example/49//#testresult/a3a691691ec2093e",
       "status" : "passed",
@@ -42,11 +51,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "3ed20e80658275db",
+      "reportUrl" : "https://FerreiraJo.github.io/cypress-and-netlify-build-example/49//#testresult/3ed20e80658275db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643566304043,
+        "stop" : 1643566304534,
+        "duration" : 491
+      }
+    }, {
       "uid" : "690c8165b9305fb8",
       "reportUrl" : "https://FerreiraJo.github.io/cypress-and-netlify-build-example/49//#testresult/690c8165b9305fb8",
       "status" : "passed",
@@ -80,11 +98,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "3c1c944134ac7b95",
+      "reportUrl" : "https://FerreiraJo.github.io/cypress-and-netlify-build-example/49//#testresult/3c1c944134ac7b95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643566286499,
+        "stop" : 1643566287447,
+        "duration" : 948
+      }
+    }, {
       "uid" : "a248fb955132cd7b",
       "reportUrl" : "https://FerreiraJo.github.io/cypress-and-netlify-build-example/49//#testresult/a248fb955132cd7b",
       "status" : "passed",
@@ -118,11 +145,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "5e90c6dc8d0b2f98",
+      "reportUrl" : "https://FerreiraJo.github.io/cypress-and-netlify-build-example/49//#testresult/5e90c6dc8d0b2f98",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643566296731,
+        "stop" : 1643566297220,
+        "duration" : 489
+      }
+    }, {
       "uid" : "d212ac665307222e",
       "reportUrl" : "https://FerreiraJo.github.io/cypress-and-netlify-build-example/49//#testresult/d212ac665307222e",
       "status" : "passed",

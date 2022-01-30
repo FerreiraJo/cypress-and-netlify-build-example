@@ -4,6 +4,11 @@
   "reportName" : "Allure Report with history",
   "data" : { }
 }, {
+  "buildOrder" : 49,
+  "reportUrl" : "https://FerreiraJo.github.io/cypress-and-netlify-build-example/49/",
+  "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
   "buildOrder" : 47,
   "reportUrl" : "https://FerreiraJo.github.io/cypress-and-netlify-build-example/47/",
   "reportName" : "Allure Report with history",
