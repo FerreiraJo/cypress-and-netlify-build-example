@@ -26,13 +26,9 @@ jobs:
           wait-on: 'http://localhost:4000'
           wait-on-timeout: 120
           browser: chrome
-          record: true
-          parallel: true
-          group: 'Actions example'
+          continue-on-error: true
+          command: npm run smoke:test
       
-      - name: Run Cypress tests
-        run: npm run test:chrome
-        continue-on-error: true
       
       - name: Copy test execution videos
         run: |
