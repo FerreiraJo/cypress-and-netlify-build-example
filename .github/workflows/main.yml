@@ -39,6 +39,9 @@ jobs:
           parallel: true
           record: true
           group: 'Actions example'
+        env:
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+
           
       - name: Get Allure history
         uses: actions/checkout@v2
