@@ -1,36 +1,42 @@
-# name: Cypress Tests with Dependency and Artifact Caching
-
-# on: 
-#   # Trigger the workflow on push or pull request,
-#   # but only for the main branch
-#   push:
-#     branches:
-#       - main
-#   pull_request:
-#     branches:
-#       - main
-# jobs:
-#   cypress-run:
-#     runs-on: ubuntu-latest
-#     container: 
-#       image: cypress/browsers:node16.5.0-chrome97-ff96
-#       options: --user 1001
-#     env:
-#       # prevents extra Cypress installation progress messages
-#       CI: 1
-#       # avoid warnings like "tput: No value for $TERM and no -T specified"
-#       TERM: xterm
-#     steps:
-#       - name: Checkout
-#         uses: actions/checkout@v2
-#       # Install NPM dependencies, cache them correctly
-#       # and run all Cypress tests
-#       - name: Cypress run
-#         uses: cypress-io/github-action@v2
-#         with:
-#           build: npm run build:sandbox
-#           start: npm start
-#           wait-on: 'http://localhost:4000'
-#           wait-on-timeout: 120
-#           browser: chrome
-#           command: npm run smoke:test
+name: Create Cypress report
+on:
+  push:
+    branches:
+      - 'action-publish-github-pages'
+jobs:
+  cypress-e2e-chrome81:
+  name: Run on Chrome 81
+  runs-on: ubuntu-18.04
+  container: cypress/browsers:node16.5.0-chrome97-ff96
+  steps:
+    - uses: actions/checkout@v2
+    - name: Install a project with a clean slate
+      run: |
+        npm ci
+        $(npm bin)/cypress cache path
+        $(npm bin)/cypress cache list
+        $(npm bin)/cypress verify
+    - name: Run Cypress tests
+      continue-on-error: true
+      with:
+        build: npm run build:sandbox
+        start: npm start
+        wait-on: 'http://localhost:4000'
+        wait-on-timeout: 120
+        browser: chrome
+        command: npm run smoke:test
+    - name: Copy test execution videos
+      run: |
+        mkdir public
+        cp -r cypress/videos public/videos
+    - name: Merge test results into one
+      run: npm run report:merge
+    - name: Generate HTML report
+      run: npm run report:generate
+    - name: Deploy report page
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
+        user_name: 'github-actions[bot]'
+        user_email: 'github-actions[bot]@users.noreply.github.com'
