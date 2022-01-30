@@ -1,1 +1,83 @@
-{ }
+{
+  "92d9c2f3a741caed1a40f4c52a649e12" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5670bd60f638bf82",
+      "reportUrl" : "https://FerreiraJo.github.io/cypress-and-netlify-build-example/63//#testresult/5670bd60f638bf82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643585219532,
+        "stop" : 1643585219923,
+        "duration" : 391
+      }
+    } ]
+  },
+  "184c52d2d7631530b6d8c7411e251b53" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b9ac8a72643a35e4",
+      "reportUrl" : "https://FerreiraJo.github.io/cypress-and-netlify-build-example/63//#testresult/b9ac8a72643a35e4",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: Expected to find content: 'Welcome to m app!' within the element: <h1.title> but never did.",
+      "time" : {
+        "start" : 1643585206983,
+        "stop" : 1643585211762,
+        "duration" : 4779
+      }
+    } ]
+  },
+  "a6e955bcfc9e04daff6a42bd0def6767" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "182372dea89d7a7f",
+      "reportUrl" : "https://FerreiraJo.github.io/cypress-and-netlify-build-example/63//#testresult/182372dea89d7a7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643585213691,
+        "stop" : 1643585214425,
+        "duration" : 734
+      }
+    } ]
+  },
+  "1348bec26956964e729b4d34147c4dce" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b3764ba07018ab9d",
+      "reportUrl" : "https://FerreiraJo.github.io/cypress-and-netlify-build-example/63//#testresult/b3764ba07018ab9d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643585218268,
+        "stop" : 1643585218938,
+        "duration" : 670
+      }
+    } ]
+  }
+}

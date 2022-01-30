@@ -1,1 +1,41 @@
-[ ]
+[ {
+  "uid" : "b3764ba07018ab9d",
+  "name" : "Opening a Page",
+  "time" : {
+    "start" : 1643585218268,
+    "stop" : 1643585218938,
+    "duration" : 670
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5670bd60f638bf82",
+  "name" : "Opening a Page",
+  "time" : {
+    "start" : 1643585219532,
+    "stop" : 1643585219923,
+    "duration" : 391
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "182372dea89d7a7f",
+  "name" : "Opening a Page",
+  "time" : {
+    "start" : 1643585213691,
+    "stop" : 1643585214425,
+    "duration" : 734
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9ac8a72643a35e4",
+  "name" : "Opening a Page",
+  "time" : {
+    "start" : 1643585206983,
+    "stop" : 1643585211762,
+    "duration" : 4779
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

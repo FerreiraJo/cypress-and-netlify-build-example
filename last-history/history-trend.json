@@ -1,4 +1,16 @@
 [ {
+  "buildOrder" : 63,
+  "reportUrl" : "https://FerreiraJo.github.io/cypress-and-netlify-build-example/63/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "failed" : 1,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 3,
+    "unknown" : 0,
+    "total" : 4
+  }
+}, {
   "data" : {
     "failed" : 0,
     "broken" : 0,
