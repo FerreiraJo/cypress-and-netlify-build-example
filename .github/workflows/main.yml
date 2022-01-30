@@ -10,7 +10,6 @@ on:
 jobs:
   
   test:
-    name: Run on Chrome 97
     runs-on: ubuntu-20.04
     strategy:
       # when one test fails, DO NOT cancel the other
@@ -53,7 +52,6 @@ jobs:
 
   report:
     needs: test
-    name: Report
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@master
