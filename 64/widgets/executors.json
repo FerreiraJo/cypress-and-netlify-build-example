@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://FerreiraJo.github.io/cypress-and-netlify-build-example",
+  "buildOrder" : 64,
+  "buildName" : "GitHub Actions Run #1770190445",
+  "buildUrl" : "https://github.com/FerreiraJo/cypress-and-netlify-build-example/actions/runs/1770190445",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://FerreiraJo.github.io/cypress-and-netlify-build-example/64/"
+} ]
