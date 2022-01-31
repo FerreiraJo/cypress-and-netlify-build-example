@@ -9,7 +9,7 @@
     "build:sandbox": "env-cmd -f .env.sandbox next build",
     "start": "next start -p 4000",
     "start:test": "start-server-and-test start http://localhost:4000",
-    "smoke:test": "cypress run --env TAGS='@smoke',allure=true --browser chrome",
+    "test:smoke": "cypress run --env TAGS='@smoke',allure=true --browser chrome",
     "report:merge": "mochawesome-merge cypress/results/json/*.json > index.json",
     "report:generate": "marge index.json --reportDir report --assetsDir report/assets --reportPageTitle index.html"
   },
