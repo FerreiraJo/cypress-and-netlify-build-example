@@ -1,0 +1,188 @@
+{
+  "uid" : "147616f597177140",
+  "name" : "Opening a Page",
+  "fullName" : "Opening a Page",
+  "historyId" : "92d9c2f3a741caed1a40f4c52a649e12",
+  "time" : {
+    "start" : 1643590058912,
+    "stop" : 1643590059245,
+    "duration" : 333
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1643590058921,
+        "stop" : 1643590058921,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Given I open the page",
+      "time" : {
+        "start" : 1643590058933,
+        "stop" : 1643590059204,
+        "duration" : 271
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit /",
+        "time" : {
+          "start" : 1643590058934,
+          "stop" : 1643590059197,
+          "duration" : 263
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then I see \"Welcome to my app!\" in the button",
+      "time" : {
+        "start" : 1643590059203,
+        "stop" : 1643590059244,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get .title",
+        "time" : {
+          "start" : 1643590059204,
+          "stop" : 1643590059234,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "contains Welcome to my app!",
+        "time" : {
+          "start" : 1643590059234,
+          "stop" : 1643590059242,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "96afd3751601e7ea",
+      "name" : "video recording",
+      "source" : "96afd3751601e7ea.mp4",
+      "type" : "video/mp4",
+      "size" : 180427
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Example3"
+  }, {
+    "name" : "feature",
+    "value" : "Example3"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "582cd587a1102472",
+        "reportUrl" : "https://FerreiraJo.github.io/cypress-and-netlify-build-example/65//#testresult/582cd587a1102472",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643589700579,
+          "stop" : 1643589700896,
+          "duration" : 317
+        }
+      }, {
+        "uid" : "83eefa66134586c8",
+        "reportUrl" : "https://FerreiraJo.github.io/cypress-and-netlify-build-example/64//#testresult/83eefa66134586c8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643588831697,
+          "stop" : 1643588832122,
+          "duration" : 425
+        }
+      }, {
+        "uid" : "5670bd60f638bf82",
+        "reportUrl" : "https://FerreiraJo.github.io/cypress-and-netlify-build-example/63//#testresult/5670bd60f638bf82",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643585219532,
+          "stop" : 1643585219923,
+          "duration" : 391
+        }
+      } ]
+    },
+    "tags" : [ "regression", "smoke" ]
+  },
+  "source" : "147616f597177140.json",
+  "parameterValues" : [ ]
+}

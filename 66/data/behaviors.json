@@ -1,0 +1,39 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Example",
+    "children" : [ {
+      "name" : "Opening a Page",
+      "uid" : "a20f49302c0cdb34",
+      "parentUid" : "edcc8f79425c3ceb04e1a57acd5799c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643590052702,
+        "stop" : 1643590053190,
+        "duration" : 488
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "edcc8f79425c3ceb04e1a57acd5799c7"
+  }, {
+    "name" : "Example3",
+    "children" : [ {
+      "name" : "Opening a Page",
+      "uid" : "147616f597177140",
+      "parentUid" : "a2179051e14ac2a395e2169249fb4644",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643590058912,
+        "stop" : 1643590059245,
+        "duration" : 333
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a2179051e14ac2a395e2169249fb4644"
+  } ],
+  "name" : "behaviors"
+}

@@ -1,0 +1,21 @@
+[ {
+  "uid" : "147616f597177140",
+  "name" : "Opening a Page",
+  "time" : {
+    "start" : 1643590058912,
+    "stop" : 1643590059245,
+    "duration" : 333
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a20f49302c0cdb34",
+  "name" : "Opening a Page",
+  "time" : {
+    "start" : 1643590052702,
+    "stop" : 1643590053190,
+    "duration" : 488
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
