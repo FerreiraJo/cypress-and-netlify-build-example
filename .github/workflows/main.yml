@@ -1,0 +1,78 @@
+name: Create Cypress report
+on: 
+  # Trigger the workflow on push or pull request,
+  # but only for the main branch
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  
+  test:
+    runs-on: ubuntu-20.04
+    container: 
+      image: cypress/browsers:node16.5.0-chrome97-ff96
+      options: --user 1001
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      # Install NPM dependencies, cache them correctly
+      # and run Cypress test
+      - name: Build project and run tests 
+        uses: cypress-io/github-action@v2
+        with:
+        # build project using .env.sandbox
+          build: npm run build:sandbox
+          start: npm start
+          wait-on: 'http://localhost:4000'
+          wait-on-timeout: 120
+          browser: chrome
+          command: npm run test:smoke
+
+      - name: Upload allure report
+        uses: actions/upload-artifact@master
+        if: always()
+        continue-on-error: true
+        with:
+          name: allure-report
+          path: allure-results/
+
+  report:
+    runs-on: ubuntu-20.04
+    if: ${{ always() }}
+    needs: test
+    steps:
+
+      - name: Download allure report
+        uses: actions/download-artifact@master
+        with:
+          name: allure-report
+          path: allure-results/
+
+      - name: Get Allure history
+        uses: actions/checkout@v2
+        if: always()
+        continue-on-error: true
+        with:
+          ref: gh-pages
+          path: gh-pages
+
+      - name: Allure Report action from marketplace
+        uses: simple-elf/allure-report-action@master
+        if: always()
+        with:
+          allure_results: allure-results
+          allure_history: allure-history
+          keep_reports: 20
+
+      - name: Deploy report to Github Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: allure-history
+

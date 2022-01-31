@@ -1,6 +1,6 @@
-Feature: Example
+Feature: Example4
 
-  @smoke
+  @regression
   Scenario: Opening a Page
     Given I open the page
     Then I see "Welcome to my app!" in the button
