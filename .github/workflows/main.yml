@@ -1,25 +1,21 @@
 name: Create Cypress report
-on:
+on: 
+  # Trigger the workflow on push or pull request,
+  # but only for the main branch
   push:
     branches:
-      - 'action-publish-github-pages'
-  # Add this part if you want to schedule test rerun
-  # schedule:
-  #   - cron: '0 8 1-31 * *'
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   
   test:
     runs-on: ubuntu-20.04
-    strategy:
-      # when one test fails, DO NOT cancel the other
-      # containers, because this will kill Cypress processes
-      # leaving the Dashboard hanging ...
-      # https://github.com/cypress-io/github-action/issues/48
-      fail-fast: false
-      matrix:
-        # run 3 copies of the current job in parallel
-        containers: [1, 2, 3]
+    container: 
+      image: cypress/browsers:node16.5.0-chrome97-ff96
+      options: --user 1001
     steps:
       - uses: actions/checkout@v1
       - run: mkdir -p allure-results/
@@ -27,24 +23,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       
-      # because of "record" and "parallel" parameters
-      # these containers will load balance all found tests among themselves
       - name: Build project and run tests 
         uses: cypress-io/github-action@v2
         with:
+        # build project using .env.sandbox
           build: npm run build:sandbox
           start: npm start
           wait-on: 'http://localhost:4000'
           wait-on-timeout: 120
           browser: chrome
-          # command: npm run smoke:test
-          parallel: true
-          record: true
-          group: 'Actions example'
-        env:
-          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          command: npm run smoke:test
 
-      - name: upload artifact
+      - name: Upload allure report
         uses: actions/upload-artifact@master
         if: always()
         continue-on-error: true
@@ -58,7 +48,7 @@ jobs:
     needs: test
     steps:
 
-      - name: Download artifact
+      - name: Download allure report
         uses: actions/download-artifact@master
         with:
           name: allure-report
@@ -75,11 +65,8 @@ jobs:
       - name: Allure Report action from marketplace
         uses: simple-elf/allure-report-action@master
         if: always()
-        #id: allure-report
         with:
           allure_results: allure-results
-          #gh_pages: gh-pages
-          #allure_report: allure-report
           allure_history: allure-history
           keep_reports: 20
 
