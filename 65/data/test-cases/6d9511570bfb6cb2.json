@@ -1,0 +1,95 @@
+{
+  "uid" : "6d9511570bfb6cb2",
+  "name" : "Opening a Page",
+  "fullName" : "Opening a Page",
+  "historyId" : "184c52d2d7631530b6d8c7411e251b53",
+  "time" : {
+    "start" : 1643589695244,
+    "stop" : 1643589695246,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "Test ignored",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "acdddbf4f5e2c54f",
+      "name" : "features/Example2.feature:2022-01-31T00:41:35.118Z",
+      "source" : "acdddbf4f5e2c54f.png",
+      "type" : "image/png",
+      "size" : 47878
+    }, {
+      "uid" : "abfae0710f175ea1",
+      "name" : "video recording",
+      "source" : "abfae0710f175ea1.mp4",
+      "type" : "video/mp4",
+      "size" : 180673
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Example2"
+  }, {
+    "name" : "feature",
+    "value" : "Example2"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "9a568d31a445695",
+        "reportUrl" : "https://FerreiraJo.github.io/cypress-and-netlify-build-example/64//#testresult/9a568d31a445695",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643588825901,
+          "stop" : 1643588826342,
+          "duration" : 441
+        }
+      }, {
+        "uid" : "b9ac8a72643a35e4",
+        "reportUrl" : "https://FerreiraJo.github.io/cypress-and-netlify-build-example/63//#testresult/b9ac8a72643a35e4",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: Expected to find content: 'Welcome to m app!' within the element: <h1.title> but never did.",
+        "time" : {
+          "start" : 1643585206983,
+          "stop" : 1643585211762,
+          "duration" : 4779
+        }
+      } ]
+    },
+    "tags" : [ "regression" ]
+  },
+  "source" : "6d9511570bfb6cb2.json",
+  "parameterValues" : [ ]
+}

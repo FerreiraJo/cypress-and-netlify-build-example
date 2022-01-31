@@ -1,0 +1,94 @@
+{
+  "uid" : "2f8908d6b7a37760",
+  "name" : "Opening a Page",
+  "fullName" : "Opening a Page",
+  "historyId" : "a6e955bcfc9e04daff6a42bd0def6767",
+  "time" : {
+    "start" : 1643589706142,
+    "stop" : 1643589706143,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "Test ignored",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f62b3e18479f107d",
+      "name" : "features/Example4.feature:2022-01-31T00:41:45.997Z",
+      "source" : "f62b3e18479f107d.png",
+      "type" : "image/png",
+      "size" : 47785
+    }, {
+      "uid" : "75c9a94c3731f603",
+      "name" : "video recording",
+      "source" : "75c9a94c3731f603.mp4",
+      "type" : "video/mp4",
+      "size" : 182899
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Example4"
+  }, {
+    "name" : "feature",
+    "value" : "Example4"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "a1aa3328126787d4",
+        "reportUrl" : "https://FerreiraJo.github.io/cypress-and-netlify-build-example/64//#testresult/a1aa3328126787d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643588837700,
+          "stop" : 1643588838106,
+          "duration" : 406
+        }
+      }, {
+        "uid" : "182372dea89d7a7f",
+        "reportUrl" : "https://FerreiraJo.github.io/cypress-and-netlify-build-example/63//#testresult/182372dea89d7a7f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643585213691,
+          "stop" : 1643585214425,
+          "duration" : 734
+        }
+      } ]
+    },
+    "tags" : [ "regression" ]
+  },
+  "source" : "2f8908d6b7a37760.json",
+  "parameterValues" : [ ]
+}
